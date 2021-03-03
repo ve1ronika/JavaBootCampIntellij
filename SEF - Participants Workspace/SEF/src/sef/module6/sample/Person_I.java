@@ -1,11 +1,12 @@
-package sef.module6.sample;
+package sample;
 
 /* Person_I class is the superclass 
  * Attributes : name, age
  */
 public class Person_I {
 
-	//Attributes
+	/*//Attributes
+	 */
 	private String name;
 	private int age;
 	

@@ -20,13 +20,10 @@ public class OperatorActivity {
 		
 		// Print result
 		System.out.println("Difference = " + result);
-		
 		// Add numbers
-		
-		
+		int result1 = i+j;
 		// Print result
-		
-		
+		System.out.println("Summ = " + result1);
 	}
 
 }

@@ -1,6 +1,6 @@
 package sef.module6.sample;
 
-public abstract class Person_A{
+public abstract class Person_A {
 	
 	private int age;
 		
@@ -17,8 +17,7 @@ public abstract class Person_A{
 	public int getAge() {
 		return age;
 	}
-	public void setAge(int age) {
+	public void setAge(int age,) {
 		this.age = age;
 	}
-
 }

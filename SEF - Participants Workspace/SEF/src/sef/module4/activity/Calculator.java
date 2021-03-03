@@ -69,6 +69,26 @@ public class Calculator {
 			divValue = x / y;
 		}
 		return divValue;
+		Plane plane1 = new Plane();
+		Plane plane2 = new Plane();
 
+		plane1.SetHeight(100);
+		int height1 = plane1.GetHeight();
+
+	}
+
+
+
+
+	public class Plane{
+		private int planeHeight;
+
+		public int GetHeight(){
+			return planeHeight;
+		}
+
+		public void SetHeight(int height){
+			planeHeight = height;
+		}
 	}
 }

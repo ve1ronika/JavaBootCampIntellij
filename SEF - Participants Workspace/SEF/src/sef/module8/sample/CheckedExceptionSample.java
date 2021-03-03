@@ -1,4 +1,4 @@
-package sef.module8.sample;
+package ssample;
 // Needs to be completed
 import java.io.FileNotFoundException;
 import java.io.FileReader;
