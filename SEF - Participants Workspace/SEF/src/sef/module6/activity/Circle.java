@@ -8,7 +8,7 @@ public class Circle extends Shape {
         System.out.println("I am Circle constructor");
     }
 
-    public Circle(double side;) {
+    public Circle(double side) {
         this.side = side;
     }
     public Double calculateArea(){return 3.14*(side*side);}
