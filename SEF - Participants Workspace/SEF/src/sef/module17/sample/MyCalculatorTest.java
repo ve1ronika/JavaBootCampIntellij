@@ -1,6 +1,8 @@
-package sef.module17.sample;
+package sample;
 // Complete Code
 import junit.framework.TestCase;
+import org.junit.Test;
+
 
 public class MyCalculatorTest extends TestCase {
 
@@ -12,10 +14,12 @@ public class MyCalculatorTest extends TestCase {
 		theCalculator = new MyCalculator();
 	}
 
+
 	protected void tearDown() throws Exception {
 		super.tearDown();
 	}
 
+@Test
 	public void testGetSum() {
 		
 		int a = 5;
@@ -36,7 +40,7 @@ public class MyCalculatorTest extends TestCase {
 		assertEquals(-15, (theCalculator.getSum(a,b)));
 		assertEquals(-15, (theCalculator.getSum(b,a)));
 	}
-
+@Test
 	public void testGetDifference() {
 		
 		int a = 3;
@@ -60,7 +64,7 @@ public class MyCalculatorTest extends TestCase {
 		//	Checks if negative value is subtracted from negative value: b < a
 		assertEquals(5, (theCalculator.getDifference(b,a)));			
 	}
-
+@Test
 	public void testGetProduct() {
 		
 		double a = 5;
@@ -81,7 +85,7 @@ public class MyCalculatorTest extends TestCase {
 		assertEquals(30, (theCalculator.getProduct(a,b)),0);
 		assertEquals(30, (theCalculator.getProduct(b,a)),0);
 	}
-
+@Test
 	public void testGetQuotient() {
 
 		double a = 10;	double b = 5;		
@@ -102,7 +106,7 @@ public class MyCalculatorTest extends TestCase {
 		//	Checks if negative value is divided with negative value: b < a
 		assertEquals(0.5, (theCalculator.getQuotient(b,a)),0);			
 		}
-		
+@Test
 		public void testThrowException(){
 			
 			try {

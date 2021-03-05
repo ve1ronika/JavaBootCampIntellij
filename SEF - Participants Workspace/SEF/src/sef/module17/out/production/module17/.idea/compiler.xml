@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/activity" includeSubdirectories="true" />
+      <file url="file://$PROJECT_DIR$/sample/MyCalTest2.java" />
+      <file url="file://$PROJECT_DIR$/sample/Product.java" />
+      <file url="file://$PROJECT_DIR$/sample/ProductTests.java" />
+    </excludeFromCompile>
+  </component>
+</project>
