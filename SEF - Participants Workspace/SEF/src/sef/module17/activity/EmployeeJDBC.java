@@ -12,7 +12,7 @@ public class EmployeeJDBC {
 
 	public Connection createConnection()
 	{
-		Connection con=null;
+		Connection con = null;
 		String url = "jdbc:mysql://localhost/activity";
 		String user = "root";
 		String pass = "novembris2020";

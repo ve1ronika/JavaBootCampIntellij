@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package activity;
 
 public class Calculator {

@@ -1,17 +1,9 @@
-/**
- * 
- */
+
 package sef.module3.activity;
 
-/**
- * @author
- *
- */
+
 public class FindLargest {
 
-	/**
-	 * @param args
-	 */
 	public static void main(String[] args) {
 		// Find Largest of two numbers
 		int num1 = 1, num2 = 2;

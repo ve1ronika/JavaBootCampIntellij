@@ -1,17 +1,10 @@
-/**
- * 
- */
+
 package sef.module3.activity;
 
-/**
- * @author 
- *
- */
+
 public class PrintNumWithWhile {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 		
 		

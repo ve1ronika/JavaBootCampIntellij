@@ -1,12 +1,7 @@
-/**
- * 
- */
-package sef.module3.activity;
 
-/**
- * @author 
- *
- */
+package activity;
+
+
 public class NumToWordsUsingMethod {
 
 		public static void main(String[] args) {

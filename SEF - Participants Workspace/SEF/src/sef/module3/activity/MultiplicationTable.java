@@ -1,17 +1,10 @@
-/**
- * 
- */
+
 package sef.module3.activity;
 
-/**
- * @author 
- *
- */
+
 public class MultiplicationTable {
 
-	/**
-	 * @param args
-	 */
+
 	public static void main(String[] args) {
 
 		// Table from 1 to 10
